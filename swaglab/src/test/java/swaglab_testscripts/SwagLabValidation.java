@@ -41,7 +41,7 @@ public class SwagLabValidation extends SeleniumUtility{
 	{
 		getSwagLabLoginPage.LoginSwagLab("standard_user", "secret_sauce");
 		//getSwagLabHomePage.addToCart();
-		getSwagLabHomePage.logoutfromapplication();
+		getSwagLabHomePage.logoutFromApplication();
 		String expUrl="https://www.saucedemo.com/";
 		String actUrl=getCurrentUrlOfApplication();
 		Assert.assertEquals(actUrl,expUrl,"LoginLogOut Unsuccessful or URL CHANGED!");
@@ -52,7 +52,7 @@ public class SwagLabValidation extends SeleniumUtility{
 	{
 		getSwagLabLoginPage.LoginSwagLab("standard_user", "secret_sauce");
 		
-		//getSwagLabHomePage.addToCart();
+		getSwagLabHomePage.addToCart();
 		getSwagLabCartPage.performCheckout();
 		getCheckoutStepOnePage.enterDetailsForCheckout("SIDDHI", "HANDE", "410504");
 		getCheckoutStepTwoPage.purchasedHistory();
@@ -64,7 +64,7 @@ public class SwagLabValidation extends SeleniumUtility{
 	@AfterTest
 	public void tearDown()
 	{
-		getSwagLabHomePage.logoutfromapplication();
+		getSwagLabHomePage.logoutFromApplication();
 		cleanUp();
 	}
 	

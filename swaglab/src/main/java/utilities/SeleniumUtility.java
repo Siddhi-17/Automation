@@ -257,7 +257,7 @@ public class SeleniumUtility {
 	}
 
 	public void cleanUp() {
-		driver.close();
+		driver.quit();
 	}
 
 }

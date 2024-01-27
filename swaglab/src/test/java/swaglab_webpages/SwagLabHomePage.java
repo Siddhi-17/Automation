@@ -4,63 +4,67 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
 import utilities.SeleniumUtility;
 
 public class SwagLabHomePage extends SeleniumUtility {
+	// constructor
 	public SwagLabHomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(id="react-burger-menu-btn")
-	private WebElement hamburger;
-  
-	@FindBy(id="logout_sidebar_link")
-	private WebElement logoutButton;
-	
-	@FindBy(id="add-to-cart-sauce-labs-backpack")// item one(backpack) added
-	private WebElement backpackadded;
-	
-	@FindBy(id="add-to-cart-sauce-labs-bike-light")//item two(bikelight) added
-	private WebElement bikelightadded;
-	
-	@FindBy(className="shopping_cart_link")
-	private WebElement shoppingcartbutton;
-	
-	//now create the getter() method for all private elements
 
-	public WebElement getHamburger() {
-		return hamburger;
+	@FindBy(id = "react-burger-menu-btn")
+	private WebElement navigatePannel;
+
+	@FindBy(id = "logout_sidebar_link") // @FindBy(linkText="Logout")
+	private WebElement logoutButton;
+
+	@FindBy(id = "add-to-cart-sauce-labs-backpack")
+	private WebElement addToCartBackPack; // 1st product added to cart-Sauce Labs Backpack
+
+	@FindBy(id = "add-to-cart-sauce-labs-bike-light")
+	private WebElement addToCartBikeLight; // 2nd product added to cart-Sauce Labs Bike Light
+
+	@FindBy(id = "shopping_cart_container")
+	private WebElement shoppingCartButton;
+
+	// create getters() for all private WEbElements
+	public WebElement getnavigatePannel() {
+		return navigatePannel;
 	}
 
-	public WebElement getLogoutButton() {
+	public WebElement getlogoutButton() {
 		return logoutButton;
 	}
 
-	public WebElement getBackpackadded() {
-		return backpackadded;
+	public WebElement getaddToCartBackPack() {
+		return addToCartBackPack;
 	}
 
-	public WebElement getBikelightadded() {
-		return bikelightadded;
+	public WebElement getaddToCartBikeLight() {
+		return addToCartBikeLight;
 	}
 
-	public WebElement getShoppingcartbutton() {
-		return shoppingcartbutton;
+	public WebElement getshoppingCartButton() {
+		return shoppingCartButton;
 	}
-	
-	//now create the method to click on the selected items.
-	
-	public void itemsaddedtocart() {
-		clickOnElement(backpackadded);
-		clickOnElement(bikelightadded);
-		clickOnElement(shoppingcartbutton);
+
+	// create () to do operation on HomePage
+	public void addToCart() {
+		// clickOnElement(navigatePannel);
+		clickOnElement(addToCartBackPack);
+		clickOnElement(addToCartBikeLight);
+		clickOnElement(shoppingCartButton);
 	}
-	
-	//create method to logout from application
-	
-	public void logoutfromapplication() {
-		clickOnElement(hamburger);
+
+	public void logoutFromApplication() {
+		clickOnElement(navigatePannel);
 		clickOnElement(logoutButton);
 	}
-	
-	
 }
+/**
+ * Elements needed on Home page navigationPanel AddToCart(forProduct1)
+ * AddToCartButton(forProduct2) CartButton
+ * 
+ * logoutButton
+ */
