@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T14:06:55 IST" name="Default suite" finished-at="2024-01-27T14:07:24 IST" duration-ms="28961">
+  <suite started-at="2024-01-27T21:30:53 IST" name="Suite" finished-at="2024-01-27T21:32:00 IST" duration-ms="67672">
     <groups>
     </groups>
-    <test started-at="2024-01-27T14:06:55 IST" name="Default test" finished-at="2024-01-27T14:07:24 IST" duration-ms="28961">
-      <class name="swaglab_testscripts1.SwagLabCartValidation">
-        <test-method is-config="true" signature="precondition()[pri:0, instance:swaglab_testscripts1.SwagLabCartValidation@54e041a4]" started-at="2024-01-27T14:06:56 IST" name="precondition" finished-at="2024-01-27T14:07:21 IST" duration-ms="25810" status="PASS">
+    <test started-at="2024-01-27T21:30:53 IST" name="Test" finished-at="2024-01-27T21:32:00 IST" duration-ms="67672">
+      <class name="testscripts.TestOrangeHrmPim">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:testscripts.TestOrangeHrmPim@3b6d844d]" started-at="2024-01-27T21:30:53 IST" name="precondition" finished-at="2024-01-27T21:31:14 IST" duration-ms="21054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="testcart()[pri:1, instance:swaglab_testscripts1.SwagLabCartValidation@54e041a4]" started-at="2024-01-27T14:07:21 IST" name="testcart" finished-at="2024-01-27T14:07:22 IST" duration-ms="834" status="PASS">
+        <test-method signature="testPimCreation()[pri:0, instance:testscripts.TestOrangeHrmPim@3b6d844d]" started-at="2024-01-27T21:31:14 IST" name="testPimCreation" finished-at="2024-01-27T21:31:24 IST" duration-ms="10324" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcart -->
-        <test-method signature="testCheckoutOverview()[pri:2, instance:swaglab_testscripts1.SwagLabCartValidation@54e041a4]" started-at="2024-01-27T14:07:22 IST" name="testCheckoutOverview" finished-at="2024-01-27T14:07:23 IST" duration-ms="1137" status="PASS">
+        </test-method> <!-- testPimCreation -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:testscripts.TestOrangeHrmPim@3b6d844d]" started-at="2024-01-27T21:31:24 IST" name="postcondition" finished-at="2024-01-27T21:31:27 IST" duration-ms="2660" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCheckoutOverview -->
-        <test-method signature="testSucessMeg()[pri:3, instance:swaglab_testscripts1.SwagLabCartValidation@54e041a4]" started-at="2024-01-27T14:07:23 IST" name="testSucessMeg" finished-at="2024-01-27T14:07:23 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:testscripts.TestOrangeHrmPim@3b6d844d]" started-at="2024-01-27T21:31:27 IST" name="precondition" finished-at="2024-01-27T21:31:52 IST" duration-ms="24876" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSucessMeg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_testscripts1.SwagLabCartValidation@54e041a4]" started-at="2024-01-27T14:07:23 IST" name="tearDown" finished-at="2024-01-27T14:07:24 IST" duration-ms="1074" status="PASS">
+        </test-method> <!-- precondition -->
+        <test-method signature="testPimDeletion()[pri:0, instance:testscripts.TestOrangeHrmPim@3b6d844d]" started-at="2024-01-27T21:31:52 IST" name="testPimDeletion" finished-at="2024-01-27T21:31:59 IST" depends-on-methods="testscripts.TestOrangeHrmPim.testPimCreation" duration-ms="6917" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- swaglab_testscripts1.SwagLabCartValidation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testPimDeletion -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:testscripts.TestOrangeHrmPim@3b6d844d]" started-at="2024-01-27T21:31:59 IST" name="postcondition" finished-at="2024-01-27T21:32:00 IST" duration-ms="1788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- testscripts.TestOrangeHrmPim -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

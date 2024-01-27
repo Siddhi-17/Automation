@@ -1,14 +1,11 @@
 E:\AutomationSession\workspace\swaglab\src\test\java\swaglab_webpages\CheckoutCompletePage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\webPages\checkoutStepOnePage.java
-E:\AutomationSession\workspace\swaglab\src\test\java\orangehrm_webpages\PimHomePage.java
-E:\AutomationSession\workspace\swaglab\src\test\java\orangehrm_webpages\LoginPage.java
-E:\AutomationSession\workspace\swaglab\src\test\java\orangehrm_webpages\PersonalDetailsPage.java
+E:\AutomationSession\workspace\swaglab\src\test\java\webpagesfororangehrm\PimHomePage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\webPages\checkoutCompletePage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\webPages\swagLabLoginPage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\swaglab_webpages\SwagLabCartPage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\swaglab_webpages\SwagLabHomePage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\webPages\checkoutStepTwoPage.java
-E:\AutomationSession\workspace\swaglab\src\test\java\orangehrm_webpages\AddEmployeePage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\swaglab_webpages\CheckoutStepTwoPage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\swaglab_testscripts1\SwagLabCartValidation.java
 E:\AutomationSession\workspace\swaglab\src\test\java\swaglab_webpages\CheckoutStepOnePage.java
@@ -16,5 +13,9 @@ E:\AutomationSession\workspace\swaglab\src\test\java\swaglab_testscripts1\SwagLa
 E:\AutomationSession\workspace\swaglab\src\test\java\webPages\swagLabCartPage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\webPages\swagLabHomePage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\swaglab_testscripts\SwagLabValidation.java
+E:\AutomationSession\workspace\swaglab\src\test\java\webpagesfororangehrm\HomePage.java
+E:\AutomationSession\workspace\swaglab\src\test\java\testscripts\TestOrangeHrmPim.java
+E:\AutomationSession\workspace\swaglab\src\test\java\webpagesfororangehrm\LoginPage.java
 E:\AutomationSession\workspace\swaglab\src\test\java\swaglab_webpages\SwagLabLoginPage.java
-E:\AutomationSession\workspace\swaglab\src\test\java\orangehrm_webpages\HomePage.java
+E:\AutomationSession\workspace\swaglab\src\test\java\webpagesfororangehrm\AddEmployeePage.java
+E:\AutomationSession\workspace\swaglab\src\test\java\webpagesfororangehrm\PersonalDetailsPage.java
