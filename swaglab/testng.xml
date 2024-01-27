@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testscripts.TestOrangeHrmPim"/>
+     
+      <class name="swaglab_testscripts.SwagLabValidation"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

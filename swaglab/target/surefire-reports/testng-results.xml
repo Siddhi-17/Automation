@@ -2,36 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T21:40:34 IST" name="Suite" finished-at="2024-01-27T21:41:31 IST" duration-ms="57203">
+  <suite started-at="2024-01-27T22:17:10 IST" name="Suite" finished-at="2024-01-27T22:17:19 IST" duration-ms="8126">
     <groups>
     </groups>
-    <test started-at="2024-01-27T21:40:34 IST" name="Test" finished-at="2024-01-27T21:41:31 IST" duration-ms="57203">
-      <class name="testscripts.TestOrangeHrmPim">
-        <test-method is-config="true" signature="precondition()[pri:0, instance:testscripts.TestOrangeHrmPim@71e9ddb4]" started-at="2024-01-27T21:40:34 IST" name="precondition" finished-at="2024-01-27T21:40:58 IST" duration-ms="24409" status="PASS">
+    <test started-at="2024-01-27T22:17:10 IST" name="Test" finished-at="2024-01-27T22:17:19 IST" duration-ms="8126">
+      <class name="swaglab_testscripts.SwagLabValidation">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:swaglab_testscripts.SwagLabValidation@563f38c4]" started-at="2024-01-27T22:17:10 IST" name="precondition" finished-at="2024-01-27T22:17:14 IST" duration-ms="3555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="testPimCreation()[pri:0, instance:testscripts.TestOrangeHrmPim@71e9ddb4]" started-at="2024-01-27T21:40:58 IST" name="testPimCreation" finished-at="2024-01-27T21:41:08 IST" duration-ms="10240" status="PASS">
+        <test-method signature="testLoginLogout()[pri:1, instance:swaglab_testscripts.SwagLabValidation@563f38c4]" started-at="2024-01-27T22:17:14 IST" name="testLoginLogout" finished-at="2024-01-27T22:17:16 IST" duration-ms="2036" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPimCreation -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:testscripts.TestOrangeHrmPim@71e9ddb4]" started-at="2024-01-27T21:41:08 IST" name="postcondition" finished-at="2024-01-27T21:41:09 IST" duration-ms="1094" status="PASS">
+        </test-method> <!-- testLoginLogout -->
+        <test-method signature="testShoppingOnSwagLab()[pri:2, instance:swaglab_testscripts.SwagLabValidation@563f38c4]" started-at="2024-01-27T22:17:16 IST" name="testShoppingOnSwagLab" finished-at="2024-01-27T22:17:18 IST" duration-ms="1473" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:testscripts.TestOrangeHrmPim@71e9ddb4]" started-at="2024-01-27T21:41:10 IST" name="precondition" finished-at="2024-01-27T21:41:22 IST" duration-ms="12841" status="PASS">
+        </test-method> <!-- testShoppingOnSwagLab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglab_testscripts.SwagLabValidation@563f38c4]" started-at="2024-01-27T22:17:18 IST" name="tearDown" finished-at="2024-01-27T22:17:19 IST" duration-ms="1006" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="testPimDeletion()[pri:0, instance:testscripts.TestOrangeHrmPim@71e9ddb4]" started-at="2024-01-27T21:41:22 IST" name="testPimDeletion" finished-at="2024-01-27T21:41:29 IST" depends-on-methods="testscripts.TestOrangeHrmPim.testPimCreation" duration-ms="7124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPimDeletion -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:testscripts.TestOrangeHrmPim@71e9ddb4]" started-at="2024-01-27T21:41:29 IST" name="postcondition" finished-at="2024-01-27T21:41:31 IST" duration-ms="1374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-      </class> <!-- testscripts.TestOrangeHrmPim -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- swaglab_testscripts.SwagLabValidation -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
